@@ -16,7 +16,7 @@ from .notifier import send_discord_notification, send_test_notification
 
 def analyze_market(
     symbol: str = "BTCUSDT",
-    min_confluence: int = 3,
+    min_confluence: int = 4,
     always_notify: bool = False,
 ) -> None:
     """
